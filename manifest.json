@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
 
-  "name": "Keep Connex Session Alive",
+  "name": "Keeper of the Session",
   "description": "Keeps you logged into connex",
   "version": "1.0",
   "content_scripts": [
     {
       "matches": ["https://connex.csc.uvic.ca/*"],
-      "js": ["dismiss.js"]
+      "js": ["keep_session.js"]
     }
   ]
 }
